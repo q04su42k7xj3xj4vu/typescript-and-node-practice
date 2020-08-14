@@ -6,6 +6,7 @@ class IndexRoute extends Route {
 
     constructor() {
         super();
+        this.prefix = "/";
         this.setRoutes();
     }
 
