@@ -18,6 +18,6 @@ db.up:
 
 # close docker-compose
 .PHONY: down
-db.up:
+down:
 	docker-compose down
 
