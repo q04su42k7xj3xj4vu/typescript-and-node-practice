@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  ts-node:
+    build:
+      target: prod
+    command: npm start
